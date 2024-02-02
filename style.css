@@ -24,6 +24,11 @@ body{
     color: #fff;
 }
 
+section{
+    width: 100%;
+    height: 100%;
+}
+
 .section-1{
     width: 100%;
     height: 100%;
@@ -38,6 +43,7 @@ body{
     justify-content: center;
     gap: 20rem;
     padding: 0 20vw;
+    position: fixed;
 }
 
 .logo h3{
@@ -58,7 +64,7 @@ body{
 
 .content{
     width: 100%;
-    height: calc(100% - 20vh);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +73,6 @@ body{
 .content h1{
     font-size: 25vw;
     font-family: Product Sans B;
-    position: absolute;
 }
 
 .fanta{
@@ -117,5 +122,36 @@ body{
     transform: rotate(60deg);
 }
 
+.section-2{
+    width: 100%;
+    height: 100%;
+    background-color: #4D231C;
+}
+
+.section-2-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+    padding: 2vw 8vw;
+}
+
+.right h1{
+    font-size: 5rem;
+    margin-bottom: 4vw;
+}
+
+.right p{
+    font-size: 1rem;
+    margin-bottom: 4vw;
+}
 
 

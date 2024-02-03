@@ -44,6 +44,7 @@ section{
     gap: 20rem;
     padding: 0 20vw;
     position: fixed;
+    z-index: 99;
 }
 
 .logo h3{
@@ -137,7 +138,7 @@ section{
 }
 .left{
     width: 40%;
-    height: 80%;
+    height: 90%;
     display: flex;
     align-items: flex-end;  
     justify-content: center;  
@@ -146,7 +147,7 @@ section{
 .left svg{
     transform: rotateX(40deg);
     /* transform: rotateY(170deg); */
-    width: 60%;
+    width: 80%;
 }
 
 .right{
@@ -162,6 +163,66 @@ section{
 .right p{
     font-size: 1rem;
     margin-bottom: 4vw;
+}
+
+.section-3{
+    background: linear-gradient(120deg, #FFA500, #FF6200);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+
+
+.container{
+    margin-top: 10vw;
+    width: 25vw;
+    height: 40vw;
+    border-radius: 2vw;
+    background-color: #fff;
+}
+
+.cont-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.cont-content h1{
+    margin-top: 45vh;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.SaborUVA{
+    position: absolute;
+    height: 55%;
+    top: 10%;
+    left: 4%;
+}
+
+.apple{
+    position: absolute;
+    height: 55%;
+    top: 10%;
+    right: 3%;
+}
+
+button{
+    margin-top: 2vw;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    outline: none;
+    border: none;
+    background-color: #FFA500;
+    color: #fff;
+    font-size: 1.2rem;
+
 }
 
 

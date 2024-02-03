@@ -137,6 +137,16 @@ section{
 }
 .left{
     width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;  
+    justify-content: center;  
+}
+
+.left svg{
+    transform: rotateX(40deg);
+    /* transform: rotateY(170deg); */
+    width: 60%;
 }
 
 .right{

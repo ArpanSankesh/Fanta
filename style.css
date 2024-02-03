@@ -16,6 +16,7 @@
 body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 #main{
@@ -49,6 +50,7 @@ section{
 
 .logo h3{
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .main-nav{
@@ -61,6 +63,7 @@ section{
 .main-nav h3{
     text-transform: capitalize;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .content{
@@ -80,7 +83,8 @@ section{
     position: absolute;
     z-index: 2;
     height: 55%;
-    transition: all cubic-bezier(0.19, 1, 0.123, 1)0.5s;
+    transition: linear 0.3s;
+    /* opacity: 0; */
 }
 .orange{
     position: absolute;
@@ -88,7 +92,6 @@ section{
     top: 10%;
     left: 33%;
     height: 28%;
-    transition: all cubic-bezier(0.19, 1, 0.123, 1)0.5s;
 }
 
 .orange2{
@@ -97,7 +100,6 @@ section{
     bottom: 10%;
     right: 30%;
     height: 35%;
-    transition: all cubic-bezier(0.19, 1, 0.123, 1)0.5s;
 }
 
 .coco-leaf{
@@ -116,7 +118,6 @@ section{
     right: 10%;
     height: 23%;
     transform: rotate(-90deg);
-    transition: all cubic-bezier(0.19, 1, 0.123, 1)0.5s;
 }
 
 .leaf1{
@@ -152,7 +153,6 @@ section{
 
 .left svg{
     transform: rotateX(40deg);
-    /* transform: rotateY(170deg); */
     width: 80%;
 }
 
@@ -176,7 +176,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: relative;
+    /* position: relative; */
 }
 
 
@@ -187,6 +187,7 @@ section{
     height: 40vw;
     border-radius: 2vw;
     background-color: #fff;
+    /* position: relative; */
 }
 
 
@@ -197,6 +198,7 @@ section{
     align-items: center;
     justify-self: center;
     flex-direction: column;
+    position: relative;
 }
 
 .cont-content h1{
@@ -205,18 +207,34 @@ section{
     color: #000;
 }
 
-.SaborUVA{
+/* .SaborUVA{
     position: absolute;
     height: 55%;
     top: 13%;
     left: 4%;
+} */
+
+.SaborUVA{
+    position: absolute;
+    height: 75%;
+    top: 23%;
+    left: -3%;
+    transform: translate(0%, -50%);
 }
 
-.apple{
+/* .apple{
     position: absolute;
     height: 55%;
     top: 13%;
     right: 3%;
+} */
+
+.apple{
+    position: absolute;
+    height: 75%;
+    top: 23%;
+    /* right: -3%; */
+    transform: translate(0%, -50%);
 }
 
 button{
@@ -229,6 +247,7 @@ button{
     background-color: #FFA500;
     color: #fff;
     font-size: 1.2rem;
+    cursor: pointer;
 
 }
 
